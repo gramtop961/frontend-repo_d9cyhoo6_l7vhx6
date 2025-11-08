@@ -1,8 +1,8 @@
-import React from 'react'
-import SectionContainer from './components/SectionContainer'
-import SectionHeader from './components/SectionHeader'
-import ActionButtons from './components/ActionButtons'
-import ImageCarousel from './components/ImageCarousel'
+import React from 'react';
+import SectionContainer from './components/SectionContainer';
+import SectionHeader from './components/SectionHeader';
+import ActionButtons from './components/ActionButtons';
+import ImageCarousel from './components/ImageCarousel';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <ActionButtons />
       <ImageCarousel />
     </SectionContainer>
-  )
+  );
 }
 
-export default App
+export default App;
